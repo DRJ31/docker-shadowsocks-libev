@@ -26,8 +26,8 @@ Current version: [![release](https://img.shields.io/github/release/shadowsocks/s
 - Get [docker-compose.yml][7], then change `SERVER_ADDR` and `PASSWORD`.
 
 - Run these commands:
-
-        # On x86 server (1.2.3.4)
+```
+       	# On x86 server (1.2.3.4)
         $ docker-compose up -d server
 
         # On x86 client (192.168.1.234)
@@ -45,7 +45,7 @@ Current version: [![release](https://img.shields.io/github/release/shadowsocks/s
 	# On any LAN PC (192.168.1.XXX)
         $ curl -x socks5h://192.168.1.234:1080 https://www.youtube.com/
         $ curl -x socks5h://192.168.1.254:1080 https://www.youtube.com/
-
+```
 - Set socks5 proxy in your favorite web browser.
 
 ## Deploy without docker
