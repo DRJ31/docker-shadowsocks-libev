@@ -36,7 +36,13 @@ Current version: [![release](https://img.shields.io/github/release/shadowsocks/s
         # On arm client (192.168.1.254)
         $ docker-compose up -d client-arm
 
-        # On any LAN PC (192.168.1.XXX)
+        # On arm64 server
+        $ docker-compose up -d server-arm64
+        
+	# On arm64 client
+        $ docker-compose up -d client-arm64
+        
+	# On any LAN PC (192.168.1.XXX)
         $ curl -x socks5h://192.168.1.234:1080 https://www.youtube.com/
         $ curl -x socks5h://192.168.1.254:1080 https://www.youtube.com/
 
